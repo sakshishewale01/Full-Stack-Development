@@ -265,6 +265,7 @@ It merges multiple rows.
 ### Why do we use `<thead>`, `<tbody>`, and `<tfoot>`?
 
 To organize table content semantically and improve readability and accessibility.
+<tfoot> is for footer section of a table.
 
 ---
 
