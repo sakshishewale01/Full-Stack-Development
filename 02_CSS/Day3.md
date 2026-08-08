@@ -19,7 +19,7 @@ By the end of Day 3, you will be able to build responsive webpages that look goo
 7. Box Shadow
 8. Hover Effects
 9. Transitions
-10. CSS Transform (Basics)
+10.CSS Transform (Basics)
 
 ---
 
@@ -145,7 +145,7 @@ display:grid;
 ## Create Columns
 
 ```css
-grid-template-columns:1fr 1fr 1fr;
+grid-template-columns:1fr 1fr 1fr; (fr = fraction)
 ```
 
 Three equal columns
@@ -153,6 +153,8 @@ Three equal columns
 ---
 
 ## Gap
+
+The gap property in CSS defines the size of the space (gutters) between items inside a Grid, Flexbox, or Multi-column layout.
 
 ```css
 gap:20px;
@@ -533,6 +535,14 @@ Transforms change the appearance of elements.
 
 ## Scale
 
+ The scale property in CSS is used to resize an element, making it larger or smaller without changing its actual position or affecting the layout around it.
+ It is a modern, standalone property that makes it easy to scale elements compared to the older transform: scale() syntax.
+ How it Works:
+ The scale property accepts numbers as values:1 is the default size (100%).
+ Numbers greater than 1 make the element larger (e.g., 2 doubles the size).
+ Numbers between 0 and 1 make the element smaller (e.g., 0.5 halves the size).
+ Negative numbers flip the element upside down or backwards.  
+
 ```css
 transform:scale(1.1);
 ```
@@ -544,7 +554,7 @@ Makes element larger.
 ## Rotate
 
 ```css
-transform:rotate(10deg);
+transform:rotate(10deg); (deg = degrees)
 ```
 
 ---
