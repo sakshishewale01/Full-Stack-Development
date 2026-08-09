@@ -1,4 +1,4 @@
----
+Java Script is Case - Sensetive language .Always write the keywords are in same format(Specially, String-S always Capital)
 
 # 📌 Day 1 Topics
 
@@ -2166,12 +2166,3 @@ Solve problems
 ```
 
 ---
-
-# JavaScript Day 1 — Completed ✅
-
-**Fundamentals → Strong Foundation → Ready for Day 2**
-
-```
-
-This version is intentionally **revision-oriented**, not another huge tutorial. Keep your existing detailed `Day1.md` for learning, and use this `README.md` as your **GitHub interview cheat sheet**.
-```
