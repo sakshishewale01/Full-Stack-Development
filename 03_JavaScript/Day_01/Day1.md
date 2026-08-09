@@ -1341,6 +1341,8 @@ Output:
 
 # 54. Template Literals
 
+Double quotes (") treat everything inside them as plain text, so they cannot read variables or expressions. Backticks (`) trigger special powers that allow JavaScript to process variables inside ${} and format multi-line text [link1].
+
 Template literals use backticks:
 
 ```javascript
